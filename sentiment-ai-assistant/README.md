@@ -1,0 +1,49 @@
+# 🤖 AI Sentiment Analysis Chatbot
+
+A simple yet powerful AI-powered chatbot that performs real-time sentiment analysis on user input using NLP (VADER Sentiment Analysis) and responds intelligently based on detected sentiment.
+
+---
+
+## 🚀 Features
+
+- 🔍 Real-time sentiment detection (Positive, Negative, Neutral)
+- 📊 Confidence score for predictions
+- 💬 Interactive chatbot interface (Streamlit)
+- 🧠 Intelligent AI-based responses
+- 🗂️ Chat history tracking
+- 🗑️ Delete individual chat messages
+- 🧹 Clear all chat history
+- ⚡ Lightweight and fast NLP model (VADER)
+
+---
+
+## 🧠 Tech Stack
+
+- Python 🐍
+- Streamlit 🎈
+- VADER Sentiment Analysis (NLTK)
+- Logging System
+- Session State Management
+
+---
+
+## 📁 Project Structure
+sentiment-chatbot-ai/
+│── app.py
+│── requirements.txt
+│── README.md
+│── assets/
+│ └── (screenshots / UI images)
+│── src/
+│ ├── analyzer.py
+│ ├── responder.py
+│ ├── utils.py
+│ ├── config.py
+│ └── logger.py
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone git@github.com:ilhamhilmy63/sentiment-chatbot-ai.git
+cd sentiment-chatbot-ai
