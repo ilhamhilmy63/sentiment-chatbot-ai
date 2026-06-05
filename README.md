@@ -41,7 +41,18 @@ sentiment-chatbot-ai/
 │ ├── config.py
 │ └── logger.py
 
-## ⚙️ Installation & Setup
+The confidence score represents the strength of the sentiment detected in the input text.
+
+It is derived from the VADER sentiment analyzer's **compound score**, which ranges from -1 (very negative) to +1 (very positive).
+
+---
+
+### ⚙️ Calculation Logic:
+
+The confidence score is calculated using the formula:
+
+```python id="conf_formula"
+confidence = abs(compound_score) * 100
 
 ### 1. Clone the repository
 ```bash
