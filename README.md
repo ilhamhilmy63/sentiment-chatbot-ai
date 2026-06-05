@@ -53,8 +53,3 @@ The confidence score is calculated using the formula:
 
 ```python id="conf_formula"
 confidence = abs(compound_score) * 100
-
-### 1. Clone the repository
-```bash
-git clone git@github.com:ilhamhilmy63/sentiment-chatbot-ai.git
-cd sentiment-chatbot-ai
